@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content:space-evenly;
+    padding: 15px;
+}
+
+.navbar a{
+    color: white;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.content{
+    display: grid;
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 20px;
+    justify-content:space-around;
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+    mar
+}
+
+.card1{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+}
+
+.card2{
+    width: 500px;
+    height: 500px;
+    background-color: chartreuse;
+}
+
+.card3{
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+}
